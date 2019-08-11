@@ -1,0 +1,202 @@
+/* common styles  */
+
+body {
+    font-family: 'Arima Madurai', cursive !important;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.section-heading {
+    padding: 5rem 0;
+}
+
+ /* intro section */
+.intro-header {
+
+}
+
+#home {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/intro-header.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: #cd437d7a;
+    
+}
+
+.intro-text {
+    color: white;
+    margin: auto;
+    position: absolute;
+    top: 16%;
+    left: 0;
+    right: 0;
+    width: 90%;
+    text-align: center;
+}
+
+.intro-text span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.intro-text h1 {
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    line-height: 1.2;
+    text-shadow: -5px -2px 7px rgba(10, 44, 61, 0.75);
+    border-top: 5px ridge white;
+    border-bottom: 5px ridge white;
+    height: 110px;
+    line-height: 120px;
+}
+
+.intro-text p {
+    font-size: 25px;
+    text-align: right;
+    text-shadow: -5px -2px 7px rgba(10, 44, 61, 0.75);
+}
+
+ /* nav bar section */
+.navbar {
+    position: fixed !important;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+}
+
+.navbar-brand img {
+    height: 55px;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: rgb(10, 44, 61);
+}
+
+ /* about me section */
+.about-me {
+    position: relative;
+}
+
+.about-me .row {
+    min-height: 100vh;
+}
+
+.about-me h1 {
+    color: #cd437d7a;
+}
+
+.about-me p {
+    color: #cd437d7a;
+}
+
+.about-me img {
+    width: 100%;
+}
+
+.social-media a {
+    font-size: 35px;
+    padding: 5px;
+}
+
+.fa-instagram {
+    color: #c5479f;
+}
+
+.fa-facebook-square {
+    color: #4267b1;
+}
+
+.fa-snapchat-square {
+    color: #fef734;
+}
+
+.fa-github-square {
+    color: rgb(99, 24, 99);
+}
+
+.fa-linkedin {
+    color: #2478b5;
+}
+
+/* portfolio section */
+.grid-item {
+    padding: 25px;
+}
+
+.grid-item img {
+    width: 100%;
+}
+
+.grid-item-25 {
+    width: 25%;
+}
+
+.grid-item-50 {
+    width: 50%;
+}
+
+/* skills section */
+.row {
+    padding-bottom: 25px;
+}
+
+#htmlBar cssBar gitBar jsBar nodeBar reactBar {
+    margin: 20px;
+    width: 400px;
+    height: 8px;
+  }
+
+/* footer section */
+.love {
+    font-size: 20px;
+    margin: 0;
+}
+
+.fa-heart {
+    color: #dacdd0;
+}
+
+.copy {
+    font-size: 16px;
+}
+
+footer .social-media i {
+    color: black;
+}
+
+footer .fa-instagram:hover {
+    color: #c5479f;
+}
+
+footer .fa-facebook-square:hover {
+    color: #4267b1;
+}
+
+footer .fa-snapchat-square:hover {
+    color: #fef734;
+}
+
+footer .fa-github-square:hover {
+    color: rgb(99, 24, 99);
+}
+
+footer .fa-linkedin:hover {
+    color: #2478b5;
+}
